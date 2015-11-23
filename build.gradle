@@ -1,4 +1,13 @@
-apply plugin: 'cpp'
-executables {
-   hello {}
+model {
+  components {
+    hello(NativeExecutableSpec) {
+      sources {
+        cpp {
+          source {
+            srcDir "src/foo/bar"
+          }
+        }
+      }
+    }
+  }
 }

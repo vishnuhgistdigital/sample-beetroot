@@ -4,7 +4,7 @@ model {
       sources {
         cpp {
           source {
-            srcDir "src/foo/bar"
+            srcDir "src/hello/cpp"
           }
         }
       }
